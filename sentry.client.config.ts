@@ -23,7 +23,7 @@ Sentry.init({
   integrations: [
     Sentry.feedbackIntegration({
       // Additional SDK configuration goes in here, for example:
-      colorScheme: "system",
+      colorScheme: "dark",
     }),
     Sentry.replayIntegration({
       // Additional Replay configuration goes in here, for example:
